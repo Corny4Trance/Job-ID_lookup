@@ -12,8 +12,11 @@
     change introduced in GM 1.0.
     It restores the sandbox.
 */
-
-
+/*
+Tweak to your needs:
+replace the @match directive with your company
+replace the regex .*career_job_req_id=(\d+).* to what ever is needed to find your Job-ID in the apply URL
+*/
 var MECtbl = $('div.company-details__company-info').html('<table><tr>' +
                                             '<th>Job-ID</th><th>Titel</th><th>Ostjob Post-ID</th><th>Datum</th>' +
                                             '</tr></table>');
