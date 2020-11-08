@@ -12,6 +12,8 @@
     change introduced in GM 1.0.
     It restores the sandbox. */
 
+/* Wishlist: concatenate all pages into first page */
+
 // a part of the page dom is loaded twice. Once when received from jobs.ch and once after google tag manager and Krux (formerly jobs.ch was using hotjar) have responded.
 // wait for this have finished
 // waitForKeyElements('#_hjRemoteVarsFrame', actionFunction); //hotjar
