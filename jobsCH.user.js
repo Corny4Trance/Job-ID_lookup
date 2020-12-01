@@ -43,9 +43,9 @@ function actionFunction(jNode){
 
     // skip postings found on other platforms
     $('.serp-item:not(:has(.serp-item-info))').css("background-color", "#a4d600").each(function(){
-      var title = $('h2 a', this).text();
+      var title = $('h3 a', this).text();
       var postDatum = $('.badge:first span', this).text();
-      var postHREF = $('h2 a', this).attr('href');
+      var postHREF = $('h3 a', this).attr('href');
       postHREF = (postHREF.split("?"))[0];
       var postID = postHREF.replace(/.*detail\/(\d*)\/.*/, '$1');
       $('#MECtbl').append('<tr><td id="MECjobID' + postID + '"></td><td>' + title + '</td><td><a href="' + postHREF + '">' + postID + '</a></td><td>' + postDatum +'</td></tr>');
