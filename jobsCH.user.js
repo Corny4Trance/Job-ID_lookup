@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name     jobs.ch
 // @description  Get the Job-ID from a SAP SF target system and display it
-// @version  2 2020-04-25
+// @version  3 2020-12-01
 // @match    https://www.jobs.ch/de/firmen/3758-kantonsspital-st-gallen/stellenangebote/*
 // @match    https://www.jobs.ch/de/firmen/11393-universitaetsspital-zuerich/stellenangebote/*
 // @match    https://www.jobs.ch/de/firmen/21347-universitaetsspital-basel/stellenangebote/*
